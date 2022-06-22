@@ -1,0 +1,60 @@
+.banner{
+    background-image: url('../img/img4.jpeg');
+}
+.banner h2{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.section2 p::before{
+    content: '{';
+    color: crimson;
+}
+.section2 p::after{
+    content: '}';
+    color: crimson;
+}
+.section2 p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.margin-left{
+    margin-left:-100px;
+}
+.module-bg{
+    background-image: url('../img/img7.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.interview{
+    background-image: url('../img/img8.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.interview1{
+    background-image: url('../img/img5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vh-60{
+    height: 60vh;
+}
+.interview div{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+}
+.interview1 div{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+}
+.section8 p{
+    font-size: 18px;
+}
+
+@media screen and (max-width:576px) {
+    .margin-left{
+        margin-left:0px;
+    }
+    .module-bg .vh-100{
+        height: auto !important;
+    }
+}
